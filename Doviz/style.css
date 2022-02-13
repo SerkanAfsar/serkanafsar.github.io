@@ -1,0 +1,44 @@
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana,
+        sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+
+div#wrapper {
+}
+div#wrapper .card .card-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+div#wrapper .card {
+    box-shadow: 3px 3px 4px #e1e1e1;
+    transition: all 0.3s ease-in;
+}
+.card .card-title {
+    text-transform: capitalize;
+}
+
+.deneme .card {
+    filter: blur(3px);
+}
+.card .card-text {
+    display: flex;
+    flex-direction: column;
+}
+div#wrapper .card i {
+    font-size: 40px;
+}
+
+.fa-circle-arrow-up {
+    color: green;
+}
+.fa-circle-arrow-down {
+    color: red;
+}
